@@ -21,6 +21,34 @@ html,body{
     width: 100%;
     background-color: rgb(13, 13, 44);
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 0 3vw;
+    border-bottom: 2px solid #dadada;
+}
+.nav-part2{
+    color: aliceblue;
+    display: flex;
+    gap: 2vw;
     
+}
+.nav h1{
+    color: white;
+}
+.nav i{
+    font-size: 1.50vw;
+    display: none;
+}
+
+@media (max-width:600px) {
+    .nav{
+        padding: 0 5vw;
+    }
+    .nav h4{
+        display: none;
+    }
+    .nav i{
+        display: block;
+        font-size: 6vw;
+    }
 }
