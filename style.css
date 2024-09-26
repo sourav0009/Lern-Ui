@@ -129,10 +129,15 @@ button:hover{
     }
     .left p{
         font-size: 5vw;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        width: 100%;
+        margin-top: 4vw;
+        margin-bottom: 5vw;
     }
     .right{
         width: 100%;
+    }
+    .left button{
+        padding: 10px 10px;
+        font-size: 20px;
     }
 }
