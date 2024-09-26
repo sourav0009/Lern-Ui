@@ -119,6 +119,7 @@ button:hover{
     .contain{
         height: calc(100% - 5%);
         flex-direction: column;
+        padding: 5vw 6vw;
     }
     .left{
         width: 100%;
