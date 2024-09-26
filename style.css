@@ -30,8 +30,22 @@ html,body{
     color: aliceblue;
     display: flex;
     gap: 2vw;
-    
+    cursor: pointer;
 }
+.nav-part2 button{
+    padding: 0.5vw 2.2vw;
+    border-radius: 10px;
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 18px;
+}
+.nav-part2 h4{
+    margin-top: 10px;
+}
+h4:hover{
+    color: #ef7f7f;
+}
+
 .nav h1{
     color: white;
 }
@@ -39,6 +53,54 @@ html,body{
     font-size: 1.50vw;
     display: none;
 }
+
+.contain{
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.left{
+    height: 100%;
+    width: 55%;
+    padding: 5vw 3vw;
+}
+.left h1{
+    font-size: 4vw;
+}
+.left h1 span{
+    color: rgb(237, 237, 7);
+}
+.left p{
+    font-size: 1.50vw;
+    color: #676565;
+    font-weight: 600;
+    width: 80%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.left button{
+    padding: 1.1vw 2.3vw;
+    background-color: rgb(104, 200, 238) ;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #0b0a0a;
+    font-size: x-large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(243, 237, 59);
+}
+.right{
+    height: 100%;
+    width: 45%;
+}
+.right img{
+    height: 95%;
+    width: 100%;
+    
+}
+
 
 @media (max-width:600px) {
     .nav{
@@ -50,5 +112,26 @@ html,body{
     .nav i{
         display: block;
         font-size: 6vw;
+    }
+    .nav-part2 button{
+        display: none;
+    }
+    .contain{
+        height: calc(100% - 5%);
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .left h1{
+        font-size: 12vw;
+    }
+    .left p{
+        font-size: 5vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .right{
+        width: 100%;
     }
 }
