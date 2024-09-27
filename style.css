@@ -44,7 +44,7 @@ html,body{
     margin-top: 10px;
 }
 .nav-part2 h4:hover{
-    color: #ebe727;
+    color: #ebe727; 
 }
 
 .nav h1{
@@ -195,5 +195,12 @@ button:hover{
         height: auto;
         width: 100%;
         background-color: rgb(23, 34, 58);
+    }
+    .icon i:hover{
+        background-color: yellow;
+        color: black;
+        border-radius: 20px;
+        transition-delay: 200ms;
+        transition-duration: 100ms;
     }
 }
