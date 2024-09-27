@@ -38,6 +38,7 @@ html,body{
     background-color: aqua;
     font-weight: 700;
     font-size: 18px;
+    transition-duration: 200ms;
 }
 .nav-part2 h4{
     margin-top: 10px;
@@ -87,6 +88,7 @@ html,body{
     color: #0b0a0a;
     font-size: x-large;
     cursor: pointer;
+    transition-duration: 200ms;
 }
 button:hover{
     background-color: rgb(243, 237, 59);
@@ -131,6 +133,8 @@ button:hover{
     background-color: yellow;
     color: black;
     border-radius: 20px;
+    transition-delay: 200ms;
+    transition-duration: 200ms;
 }
 .right1{
     display: flex;
