@@ -127,6 +127,11 @@ button:hover{
     font-size: xx-large;
     cursor: pointer;
 }
+.icon i:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+}
 .right1{
     display: flex;
     flex-direction: column;
