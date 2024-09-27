@@ -44,7 +44,7 @@ html,body{
     margin-top: 10px;
 }
 .nav-part2 h4:hover{
-    color: #ef7f7f;
+    color: #ebe727;
 }
 
 .nav h1{
@@ -134,7 +134,7 @@ button:hover{
     color: black;
     border-radius: 20px;
     transition-delay: 200ms;
-    transition-duration: 200ms;
+    transition-duration: 100ms;
 }
 .right1{
     display: flex;
